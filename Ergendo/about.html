@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./main/output.css" />
+  </head>
+
+  <body class="font-poppins capitalize">
+    <!-- header -->
+    <div id="head" class="lg:static sticky top-0 z-10">
+      <div
+        class="flex lg:justify-between lg:px-24 lg:py-3 lg:items-center bg-[#d9c7ba] relative z-10"
+      >
+        <div class="flex items-center justify-between mx-5 py-1">
+          <div class="lg:w-36 w-1/4">
+            <a href="./index.html"><img src="./img/logo.png" /></a>
+          </div>
+
+          <ion-icon id="menu" name="menu" class="lg:hidden text-3xl"></ion-icon>
+        </div>
+        <div
+          id="nav"
+          class="absolute top-[-200px] py-5 lg:py-0 lg:static bg-[#121d31] lg:bg-inherit w-full lg:w-auto"
+        >
+          <ul class="lg:flex space-y-4 lg:space-y-0 lg:space-x-10">
+            <li>
+              <a
+                href="./about.html"
+                class="lg:text-[#121d31] text-white hover:text-red-700 px-10 mx-3 lg:mx-0 lg:px-0"
+                >about</a
+              >
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="lg:text-[#121d31] text-white hover:text-red-700 px-10 mx-3 lg:mx-0 lg:px-0"
+                >contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="./product.html"
+                class="bg-red-600 px-10 mx-3 lg:mx-0 py-2 lg:py-3 rounded-full text-white text-lg hover:bg-red-700 block lg:inline"
+                >product</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div>
+      <!-- landing image -->
+      <div class="relative">
+        <img src="./img/people-conference-room1.jpeg" class="w-full h-auto" />
+        <div
+          class="absolute inset-0 flex items-center bg-black opacity-65 justify-center"
+        >
+          <h2 class="text-white text-7xl font-bold uppercase shadow-md">
+            about us
+          </h2>
+        </div>
+      </div>
+      <div
+        class="lg:px-32 px-5 flex flex-col items-center justify-center lg:space-y-10 mt-20"
+      >
+        <h1 class="lg:text-7xl text-4xl font-bold">
+          who <span class="bg-red-500 rounded-md">we are</span>
+        </h1>
+        <p
+          class="lg:max-w-3xl text-gray-600 lg text-2xl text-center mt-5 lg:mt-0"
+        >
+          We are legally registered and licensed eva export company in Ethiopia.
+          Ergendo is the only ethiopian eva company with high quality materials.
+          We have a fertile land that gives double production. We are legally
+          registered and licensed eva export company in Ethiopia. Ergendo is the
+          only ethiopian eva company with high quality materials. We have a
+          fertile land that gives double production.
+        </p>
+      </div>
+      <div class="bg-[#121d31] text-[#d9c7ba] my-20 py-20" id="ceo">
+        <h1 class="text-center text-4xl">
+          meet our <span class="text-red-500">ceo</span>
+        </h1>
+        <div
+          class="flex flex-col lg:flex-row items-center justify-center pt-20"
+        >
+          <div
+            class="lg:w-1/3 w-2/3 space-y-5 lg:border-r-2 border-b-2 lg:border-b-0 pb-10 lg:pb-0 lg:ml-16 text-center lg:text-left"
+          >
+            <img src="./img/pic2.jpg" class="rounded-full lg:w-3/4 flex" />
+            <h1 class="text-2xl">Mr abebe</h1>
+            <p class="font-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam accusamus sed iste tenetur atque possimus voluptates
+              necessitatibus, qui placeat magni.
+            </p>
+          </div>
+          <img
+            src="./img/pointing_woman-removebg-preview.png "
+            class="lg:w-2/5 lg:pl-5"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div
+      class="capitalize flex flex-wrap justify-between lg:px-12 pt-20 pb-5 mx-10 border-b-2"
+    >
+      <div class="text-center lg:w-1/3 text-slate-700 mb-20">
+        <img src="./img/logo.png" class="w-28 lg:w-1/3 mx-auto" />
+        <p class="lg:text-lg">
+          A rich flavor of coffee produced in the fertile lands of Guji Zone
+          Process to perfection.
+        </p>
+      </div>
+      <div>
+        <h1 class="uppercase font-semibold pb-3 text-2xl">links</h1>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./index.html">home</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./about.html">about</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./contact.html">contact</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./product.html">product</a>
+        </p>
+      </div>
+      <div>
+        <h1 class="text-2xl uppercase font-semibold pb-3">others</h1>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./contact.html#location">location</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./about.html#ceo">ceo</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./product.html">product</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./gallary.html">gallary</a>
+        </p>
+      </div>
+      <div>
+        <h1 class="text-2xl uppercase font-semibold pb-3">get in touch</h1>
+        <p class="text-slate-700 lg:text-lg">customers@ergendo.com</p>
+        <p class="text-slate-700 lg:text-lg">+251 011 988 098</p>
+      </div>
+    </div>
+    <div class="px-20 py-5 flex justify-around">
+      <h1 class="font-semibold">&copy; Ergendo</h1>
+      <a href="">privacy policy</a>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

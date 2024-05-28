@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./main/output.css" />
+  </head>
+
+  <body class="font-poppins capitalize">
+    <!-- header -->
+    <div id="head" class="lg:static sticky top-0 z-10">
+      <div
+        class="flex lg:justify-between lg:px-24 lg:py-3 lg:items-center bg-[#d9c7ba] relative z-10"
+      >
+        <div class="flex items-center justify-between mx-5 py-1">
+          <div class="lg:w-36 w-1/4">
+            <a href="./index.html"><img src="./img/logo.png" /></a>
+          </div>
+
+          <ion-icon id="menu" name="menu" class="lg:hidden text-3xl"></ion-icon>
+        </div>
+        <div
+          id="nav"
+          class="absolute top-[-200px] py-5 lg:py-0 lg:static bg-[#121d31] lg:bg-inherit w-full lg:w-auto"
+        >
+          <ul class="lg:flex space-y-4 lg:space-y-0 lg:space-x-10">
+            <li>
+              <a
+                href="./about.html"
+                class="lg:text-[#121d31] text-white hover:text-red-700 px-10 mx-3 lg:mx-0 lg:px-0"
+                >about</a
+              >
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="lg:text-[#121d31] text-white hover:text-red-700 px-10 mx-3 lg:mx-0 lg:px-0"
+                >contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="./product.html"
+                class="bg-red-600 px-10 mx-3 lg:mx-0 py-2 lg:py-3 rounded-full text-white text-lg hover:bg-red-700 block lg:inline"
+                >product</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div class="my-20">
+      <div class="flex flex-col lg:flex-row justify-center items-center">
+        <div
+          class="max-w-xl space-y-2 pr-10 text-center lg:text-left mb-10 lg:mb-0"
+        >
+          <h1 class="text-3xl font-semibold">Have Questions?</h1>
+          <p class="font-medium text-gray-500">
+            Our Door Is Always Open For A Good Cup Of Coffee. Please Send Us
+            Your Feedback Or Any Inquery You Have, We Will Reach You As Soon As
+            Possible.
+          </p>
+        </div>
+        <div
+          class="flex flex-col space-y-5 w-3/4 lg:w-2/5 shadow-lg px-10 py-10"
+        >
+          <h1 class="font-semibold text-xl mb-10">Leave Message</h1>
+          <input class="border h-12 pl-3" type="text" placeholder="Name" />
+          <input class="border h-12 pl-3" type="email" placeholder="Email" />
+          <input class="border h-12 pl-3" placeholder="Phone number" />
+
+          <textarea
+            class="border"
+            cols="50"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit" class="bg-red-500 h-12 text-white">
+            submit
+          </button>
+        </div>
+      </div>
+      <div
+        class="bg-[#121d31] text-[#d9c7ba] gap-x-10 flex justify-center my-20 py-20 px-10 lg:px-0"
+      >
+        <div class="space-y-10">
+          <h1 class="text-2xl font-semibold">Contact Customer Support</h1>
+
+          <p>
+            <span class="block text-red-500 text-xl font-medium">email</span>
+            ergendo@gmail.com
+          </p>
+          <p>
+            <span class="block text-red-500 text-xl font-medium"
+              >phone number</span
+            >
+            +251 912345678
+          </p>
+        </div>
+        <div class="border"></div>
+        <div class="space-y-10">
+          <h1 class="text-2xl font-semibold">Talk To Our Sales Team</h1>
+          <p>0114704117</p>
+          <p>
+            <span class="block text-red-500 text-xl font-medium">Fax:</span> 011
+            470 6372
+          </p>
+        </div>
+      </div>
+      <!-- location -->
+      <div class="lg:mx-32 mx-10">
+        <h1 class="border-b-2 pb-2">Where You Can Find Us</h1>
+        <h1 class="pt-5">kality</h1>
+        <div class="hidden lg:grid" id="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126110.61890371033!2d38.69470592673831!3d8.976118818067667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b835b7d5bba93%3A0x7e217ba47320eab0!2sERGENDO%20TRADE%20AND%20INDUSTRY%20PLC!5e0!3m2!1sen!2set!4v1712843476506!5m2!1sen!2set"
+            width="1250"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="lg:hidden" id="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126110.61890371033!2d38.69470592673831!3d8.976118818067667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b835b7d5bba93%3A0x7e217ba47320eab0!2sERGENDO%20TRADE%20AND%20INDUSTRY%20PLC!5e0!3m2!1sen!2set!4v1712843476506!5m2!1sen!2set"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div
+      class="capitalize flex flex-wrap justify-between lg:px-12 pt-20 pb-5 mx-10 border-y-2"
+    >
+      <div class="text-center lg:w-1/3 text-slate-700 mb-20">
+        <img src="./img/logo.png" class="w-28 lg:w-1/3 mx-auto" />
+        <p class="lg:text-lg">
+          A rich flavor of coffee produced in the fertile lands of Guji Zone
+          Process to perfection.
+        </p>
+      </div>
+      <div>
+        <h1 class="uppercase font-semibold pb-3 text-2xl">links</h1>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./index.html">home</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./about.html">about</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./contact.html">contact</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./product.html">product</a>
+        </p>
+      </div>
+      <div>
+        <h1 class="text-2xl uppercase font-semibold pb-3">others</h1>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./contact.html#location">location</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./about.html#ceo">ceo</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./product.html">product</a>
+        </p>
+        <p class="text-slate-700 lg:text-lg hover:text-red-500">
+          <a href="./gallary.html">gallary</a>
+        </p>
+      </div>
+      <div>
+        <h1 class="text-2xl uppercase font-semibold pb-3">get in touch</h1>
+        <p class="text-slate-700 lg:text-lg">customers@ergendo.com</p>
+        <p class="text-slate-700 lg:text-lg">+251 011 988 098</p>
+      </div>
+    </div>
+    <div class="px-20 py-5 flex justify-around">
+      <h1 class="font-semibold">&copy; Ergendo</h1>
+      <a href="">privacy policy</a>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

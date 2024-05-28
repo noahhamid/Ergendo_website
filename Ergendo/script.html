@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main/output.css" />
+  </head>
+  <body>
+    <div class="flex justify-center">
+      <div class="uppercase w-6/12 border shadow-lg my-10 py-10">
+        <div class="flex justify-around">
+          <div>
+            <h1 class="text-xl font-bold font-mono drop-shadow-lg">
+              user choice
+            </h1>
+            <h2
+              id="user_choice"
+              class="text-4xl font-bold font-mono drop-shadow-lg mt-10 text-center"
+            ></h2>
+          </div>
+          <div>
+            <h1 class="text-xl font-bold font-mono drop-shadow-lg">
+              computer choice
+            </h1>
+            <h2
+              id="computer_choice"
+              class="text-4xl font-bold font-mono drop-shadow-lg mt-10 text-center"
+            ></h2>
+          </div>
+        </div>
+        <div class="flex justify-center space-x-5 mt-20">
+          <button
+            id="rock"
+            class="py-2 px-5 rounded-full border shadow-md hover:bg-black hover:text-white transition-all duration-300"
+          >
+            rock
+          </button>
+          <button
+            id="paper"
+            class="py-2 px-5 rounded-full border shadow-md hover:bg-black hover:text-white transition-all duration-300"
+          >
+            paper
+          </button>
+          <button
+            id="scissors"
+            class="py-2 px-5 rounded-full border shadow-md hover:bg-black hover:text-white transition-all duration-300"
+          >
+            scissors
+          </button>
+        </div>
+        <div class="flex flex-col items-center">
+          <h1 class="text-xl font-bold font-mono drop-shadow-lg mt-10">
+            user choice
+          </h1>
+          <h2
+            id="result"
+            class="text-4xl font-bold font-mono drop-shadow-lg mt-10 text-center"
+          >s</h2>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
